@@ -30,5 +30,5 @@ mocha.describe('Constructeurs - Exercice 01', () => {
     });
 
     // Compléter le test ci-dessous
-
+    
 });

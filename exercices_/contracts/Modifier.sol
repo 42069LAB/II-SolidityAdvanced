@@ -6,15 +6,19 @@ contract Mofifier{
 
     address owner;
 
-    constructor{
+    constructor() {
         owner = msg.sender;
     }
 
-    modifier isOwner{
-        require (owner == msg.sender)
+    modifier isOwner(){
+        require (
+            owner == msg.sender,
+            "You aren't the owner"
+        );
+        _;
     }
 
     function test() public isOwner{
-        //test
+        // code
     }
 }
