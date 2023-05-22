@@ -1,1 +1,13 @@
 node_modules
+exercices_/node_modules
+exercices_/.env
+exercices_/coverage
+exercices_/coverage.json
+exercices_/typechain
+exercices_/typechain-types
+exercices_/.DS_Store
+.DS_Store
+
+Hardhat files
+exercices_/cache
+exercices_/artifacts
